@@ -4,91 +4,92 @@
  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-<!-- Home -->
-<url>
-    <loc>https://thezsmc.co/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <!-- Home -->
+    <url>
+        <loc>https://thezsmc.co/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <lastmod>2026-06-22</lastmod>
 
-    <image:image>
-        <image:loc>https://thezsmc.co/assets/img/logo.png</image:loc>
-    </image:image>
+        <image:image>
+            <image:loc>https://thezsmc.co/assets/img/logo.png</image:loc>
+        </image:image>
 
-    <image:image>
-        <image:loc>https://thezsmc.co/assets/img/logo.svg</image:loc>
-    </image:image>
+        <image:image>
+            <image:loc>https://thezsmc.co/assets/img/logo.svg</image:loc>
+        </image:image>
 
-    <image:image>
-        <image:loc>https://thezsmc.co/assets/img/icon.png</image:loc>
-    </image:image>
+        <image:image>
+            <image:loc>https://thezsmc.co/assets/img/icon.png</image:loc>
+        </image:image>
 
-    <image:image>
-        <image:loc>https://thezsmc.co/assets/img/icon.svg</image:loc>
-    </image:image>
-</url>
+        <image:image>
+            <image:loc>https://thezsmc.co/assets/img/icon.svg</image:loc>
+        </image:image>
+    </url>
 
-<!-- About -->
-<url>
-    <loc>https://thezsmc.co/about.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>22-06-2026</lastmod>
-</url>
+    <!-- About -->
+    <url>
+        <loc>https://thezsmc.co/about.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2026-06-22</lastmod>
+    </url>
 
-<!-- Research Hub -->
-<url>
-    <loc>https://thezsmc.co/research.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>22-06-2026</lastmod>
-</url>
+    <!-- Research Hub -->
+    <url>
+        <loc>https://thezsmc.co/research.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2026-06-22</lastmod>
+    </url>
 
-<!-- Architecture -->
-<url>
-    <loc>https://thezsmc.co/architecture.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>22-06-2026</lastmod>
-</url>
+    <!-- Architecture -->
+    <url>
+        <loc>https://thezsmc.co/architecture.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2026-06-22</lastmod>
+    </url>
 
-<!-- Failure Analysis -->
-<url>
-    <loc>https://thezsmc.co/failure-analysis.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>22-06-2026</lastmod>
-</url>
+    <!-- Failure Analysis -->
+    <url>
+        <loc>https://thezsmc.co/failure-analysis.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2026-06-22</lastmod>
+    </url>
 
-<!-- Performance Modeling -->
-<url>
-    <loc>https://thezsmc.co/performance.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>22-06-2026</lastmod>
-</url>
+    <!-- Performance Modeling -->
+    <url>
+        <loc>https://thezsmc.co/performance.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2026-06-22</lastmod>
+    </url>
 
-<!-- Validation Plan -->
-<url>
-    <loc>https://thezsmc.co/validation.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>22-06-2026</lastmod>
-</url>
+    <!-- Validation Plan -->
+    <url>
+        <loc>https://thezsmc.co/validation.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2026-06-22</lastmod>
+    </url>
 
-<!-- R&D Roadmap -->
-<url>
-    <loc>https://thezsmc.co/roadmap.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>22-06-2026</lastmod>
-</url>
+    <!-- R&D Roadmap -->
+    <url>
+        <loc>https://thezsmc.co/roadmap.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <lastmod>2026-06-22</lastmod>
+    </url>
 
-<!-- Contact -->
-<url>
-    <loc>https://thezsmc.co/contact.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-    <lastmod>22-06-2026</lastmod>
-</url>
+    <!-- Contact -->
+    <url>
+        <loc>https://thezsmc.co/contact.html</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+        <lastmod>2026-06-22</lastmod>
+    </url>
 
 </urlset>
