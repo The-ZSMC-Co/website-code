@@ -2011,3 +2011,60 @@ body.nav-open .section {
 .footer-bottom a:hover::after {
   width: 100%;
 }
+
+/* Funding Bar */
+.funded-bar {
+  background: var(--white);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 22px 0;
+}
+
+.funded-bar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.funded-label {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.funded-partner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 18px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.funded-logo {
+  height: 42px;
+  width: auto;
+  object-fit: contain;
+}
+
+.funded-partner span {
+  font-weight: 800;
+  color: var(--ink);
+}
+
+@media (max-width: 760px) {
+  .funded-bar-inner {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .funded-logo {
+    height: 34px;
+  }
+}
