@@ -297,7 +297,7 @@
         "Message:\n" +
         message;
 
-      var mailtoLink = "mailto:info@thezsmc.co""?" +
+      var mailtoLink = "mailto:info@thezsmc.co?" +
         "subject=" + encodeURIComponent(subject) +
         "&body=" + encodeURIComponent(body);
 
