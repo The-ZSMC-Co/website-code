@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Performance Modeling | The ZSMC Co.</title>
+  <meta name="description"
+    content="Performance modeling, voltage behavior, and energy density estimates for the ZSMC cell.">
+  <meta name="author" content="Srijal Dutta">
+  <link rel="canonical" href="https://thezsmc.co/performance.html">
+  <link rel="icon" href="assets/img/icon.png" type="image/png">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body data-page="research">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="The ZSMC Co. home"><img src="assets/img/logo.png"
+        alt="The ZSMC Co. logo" width="522" height="221"></a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"
+      data-nav-toggle><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation" data-nav>
+      <a href="index.html" data-nav-link>Home</a>
+      <div class="nav-dropdown active">
+        <a href="research.html" class="nav-dropdown-toggle" data-nav-link aria-current="page">Research</a>
+        <div class="nav-dropdown-menu">
+          <a href="architecture.html" data-nav-link>Architecture</a>
+          <a href="failure-analysis.html" data-nav-link>Failure Analysis</a>
+          <a href="performance.html" data-nav-link aria-current="page">Performance</a>
+          <a href="validation.html" data-nav-link>Validation</a>
+          <a href="roadmap.html" data-nav-link>Roadmap</a>
+        </div>
+      </div>
+      <a href="about.html" data-nav-link>About</a>
+      <a href="progress.html" data-nav-link>Progress</a>
+      <a href="contact.html" data-nav-link>Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero section-dark">
+      <div class="container page-hero-grid" style="grid-template-columns: 1fr;">
+        <div class="reveal">
+          <p class="eyebrow">Research / Performance Modeling</p>
+          <h1>Expected behavior under load.</h1>
+          <p>Modeling provides the baseline for validation. Our current models treat the cell as anode-limited and predict a rate-dependent dual-plateau discharge profile.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-paper">
+      <div class="container split-layout">
+        <div class="section-kicker reveal">
+          <p class="eyebrow">Voltage behavior</p>
+          <h2>The dual-plateau discharge concept.</h2>
+        </div>
+        <div class="prose reveal">
+          <p>Because the cathode relies on two distinct active materials (MnO<sub>2</sub> and CuO), the modeled discharge curve exhibits two sequential voltage plateaus rather than a single continuous slope.</p>
+          <p>The primary plateau, dominated by the reduction of MnO<sub>2</sub>, occurs at a higher potential. As this material is depleted and the voltage drops, the secondary reduction of CuO becomes the dominant reaction, providing a lower-voltage plateau that extends the total capacity.</p>
+          <p>Crucially, this dual-plateau behavior is highly rate-dependent. At higher C-rates, the lower ionic and electronic conductivity of the CuO phase restricts access to its active core, significantly truncating the secondary plateau.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Model summary</p>
+          <h2>Electrode-stack basis, active layers only.</h2>
+        </div>
+        <div class="table-wrap reveal">
+          <table>
+            <caption>Modeled electrochemical summary</caption>
+            <thead>
+              <tr>
+                <th scope="col">Parameter</th>
+                <th scope="col">1C</th>
+                <th scope="col">2C</th>
+                <th scope="col">3C</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Nominal voltage</th>
+                <td>1.317 V</td>
+                <td>1.232 V</td>
+                <td>1.162 V</td>
+              </tr>
+              <tr>
+                <th scope="row">Energy density</th>
+                <td>143.297 Wh/kg</td>
+                <td>134.049 Wh/kg</td>
+                <td>126.432 Wh/kg</td>
+              </tr>
+              <tr>
+                <th scope="row">Volumetric density</th>
+                <td>257.340 Wh/L</td>
+                <td>240.732 Wh/L</td>
+                <td>227.054 Wh/L</td>
+              </tr>
+              <tr>
+                <th scope="row">Effective capacity</th>
+                <td>97.2%</td>
+                <td>93.1%</td>
+                <td>91.1%</td>
+              </tr>
+              <tr>
+                <th scope="row">Current density</th>
+                <td>6.116 mA/cm<sup>2</sup></td>
+                <td>12.232 mA/cm<sup>2</sup></td>
+                <td>18.349 mA/cm<sup>2</sup></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note reveal">Cell-level energy density will be lower after separator, current collector, packaging,
+          and electrolyte mass and volume are included.</p>
+      </div>
+    </section>
+
+  </main>
+<footer class="site-footer">
+  <div class="container">
+
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/img/logo.png" alt="The ZSMC Co. logo" width="522" height="221">
+        <p>
+          Independent zinc-based energy-storage research focused on safer,
+          scalable, and sustainable electrochemical systems.
+        </p>
+      </div>
+
+      <div class="footer-meta">
+        <div>
+          <span class="footer-label">Its time to</span>
+          <strong>DO IT</strong>
+        </div>
+
+        <div>
+          <span class="footer-label">Contact</span>
+          <strong>info@thezsmc.co</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 The ZSMC Co.</p>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+
+  </div>
+</footer>
+
+  <script src="assets/vendor/three.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

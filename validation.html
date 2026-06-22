@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Validation Plan | The ZSMC Co.</title>
+  <meta name="description"
+    content="Validation and testing methodology for the ZSMC cell architecture.">
+  <meta name="author" content="Srijal Dutta">
+  <link rel="canonical" href="https://thezsmc.co/validation.html">
+  <link rel="icon" href="assets/img/icon.png" type="image/png">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body data-page="research">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="The ZSMC Co. home"><img src="assets/img/logo.png"
+        alt="The ZSMC Co. logo" width="522" height="221"></a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"
+      data-nav-toggle><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation" data-nav>
+      <a href="index.html" data-nav-link>Home</a>
+      <div class="nav-dropdown active">
+        <a href="research.html" class="nav-dropdown-toggle" data-nav-link aria-current="page">Research</a>
+        <div class="nav-dropdown-menu">
+          <a href="architecture.html" data-nav-link>Architecture</a>
+          <a href="failure-analysis.html" data-nav-link>Failure Analysis</a>
+          <a href="performance.html" data-nav-link>Performance</a>
+          <a href="validation.html" data-nav-link aria-current="page">Validation</a>
+          <a href="roadmap.html" data-nav-link>Roadmap</a>
+        </div>
+      </div>
+      <a href="about.html" data-nav-link>About</a>
+      <a href="contact.html" data-nav-link>Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero section-dark">
+      <div class="container page-hero-grid" style="grid-template-columns: 1fr;">
+        <div class="reveal">
+          <p class="eyebrow">Research / Validation Plan</p>
+          <h1>Measured under load, then examined directly.</h1>
+          <p>The near-term work is intentionally narrow: apply a known load, record voltage response, inspect the resulting cells with SEM, and use EIS only where it helps interpret the final results.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-paper">
+      <div class="container chart-layout">
+        <div class="section-kicker reveal">
+          <p class="eyebrow">Testing methodology</p>
+          <h2>Experimental verification of modeled limits.</h2>
+          <p>The core philosophy is that modeled equations only represent hypotheses. True performance is verified through physical disassembly and electrochemical characterization.</p>
+        </div>
+        <div class="testing-grid reveal">
+          <article class="test-card">
+            <h3>Known load test</h3>
+            <p>Apply a fixed, known load and record voltage over time. This is the primary performance check and the most direct way to compare cells under the same conditions.</p>
+          </article>
+          <article class="test-card">
+            <h3>Voltage trace review</h3>
+            <p>Measure the voltage curve during the load test and compare the shape, stability, and cutoff point against the expected behavior of the cell chemistry.</p>
+          </article>
+          <article class="test-card">
+            <h3>SEM analysis</h3>
+            <p>Use SEM on selected samples after testing to inspect morphology, surface change, and any failure signatures that show up at the electrode level.</p>
+          </article>
+          <article class="test-card">
+            <h3>Optional EIS</h3>
+            <p>Run EIS only where it adds value to the final interpretation, mainly to help explain interface behavior or resistance changes seen in the load test.</p>
+          </article>
+          <article class="test-card">
+            <h3>Repeat comparison</h3>
+            <p>Repeat the same load and measurement setup across multiple cells so the results are comparable and not tied to a single sample.</p>
+          </article>
+          <article class="test-card">
+            <h3>Result filtering</h3>
+            <p>Keep the final claims limited to the measurements that are actually supported by the test data, especially the load response and SEM findings.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+<footer class="site-footer">
+  <div class="container">
+
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/img/logo.png" alt="The ZSMC Co. logo" width="522" height="221">
+        <p>
+          Independent zinc-based energy-storage research focused on safer,
+          scalable, and sustainable electrochemical systems.
+        </p>
+      </div>
+
+      <div class="footer-meta">
+        <div>
+          <span class="footer-label">Its time to</span>
+          <strong>DO IT</strong>
+        </div>
+
+        <div>
+          <span class="footer-label">Contact</span>
+          <strong>info@thezsmc.co</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 The ZSMC Co.</p>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+
+  </div>
+</footer>
+  <script src="assets/vendor/three.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

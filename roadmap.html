@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R&D Roadmap | The ZSMC Co.</title>
+  <meta name="description"
+    content="The four-stage research and development roadmap for the ZSMC cell architecture.">
+  <meta name="author" content="Srijal Dutta">
+  <link rel="canonical" href="https://thezsmc.co/roadmap.html">
+  <link rel="icon" href="assets/img/icon.png" type="image/png">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body data-page="research">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="The ZSMC Co. home"><img src="assets/img/logo.png"
+        alt="The ZSMC Co. logo" width="522" height="221"></a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"
+      data-nav-toggle><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation" data-nav>
+      <a href="index.html" data-nav-link>Home</a>
+      <div class="nav-dropdown active">
+        <a href="research.html" class="nav-dropdown-toggle" data-nav-link aria-current="page">Research</a>
+        <div class="nav-dropdown-menu">
+          <a href="architecture.html" data-nav-link>Architecture</a>
+          <a href="failure-analysis.html" data-nav-link>Failure Analysis</a>
+          <a href="performance.html" data-nav-link>Performance</a>
+          <a href="validation.html" data-nav-link aria-current="page">Validation</a>
+          <a href="roadmap.html" data-nav-link>Roadmap</a>
+        </div>
+      </div>
+      <a href="about.html" data-nav-link>About</a>
+      <a href="contact.html" data-nav-link>Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero section-dark">
+      <div class="container page-hero-grid" style="grid-template-columns: 1fr;">
+        <div class="reveal">
+          <p class="eyebrow">Research / R&D Roadmap</p>
+          <h1>A staged path from concept to validation.</h1>
+          <p>The roadmap defines clear stages of development, from initial formulation and reproducibility to advanced characterization and long-term capability assessments.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-paper">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Phases of development</p>
+          <h2>Four validation gates.</h2>
+        </div>
+        <div class="roadmap-stack">
+          <article class="roadmap-item reveal in-progress">
+            <span>01 / Margdarshaan</span>
+            <h3>Guidance and MVP</h3>
+            <p>The foundation stage. The focus is exclusively on establishing a reproducible Minimal Viable Product (MVP) cell build. Success is defined by the ability to repeatedly manufacture cells that exhibit the predicted open-circuit voltage and basic discharge profile without immediate catastrophic failure. This phase also secures the necessary intellectual property protections.</p>
+          </article>
+          <article class="roadmap-item reveal">
+            <span>02 / Parikshan</span>
+            <h3>Testing and Characterization</h3>
+            <p>The core validation phase. With reproducible cells established, the focus shifts to electrochemical and morphological characterization. This includes rigorous Electrochemical Impedance Spectroscopy (EIS) to understand internal resistance and interface behavior, and Scanning Electron Microscopy (SEM) to observe zinc deposition patterns and cathode structural integrity before and after discharge.</p>
+          </article>
+          <article class="roadmap-item reveal">
+            <span>03 / Vijay</span>
+            <h3>Publication and IP Broadening</h3>
+            <p>The dissemination phase. Dependent entirely on the success and transparency of the Parikshan stage. If the characterization data supports the architectural claims, the focus moves to drafting rigorous technical publications for peer review, and expanding intellectual property coverage via the Patent Cooperation Treaty (PCT) framework.</p>
+          </article>
+          <article class="roadmap-item reveal">
+            <span>04 / Udaan</span>
+            <h3>Rechargeable Exploration</h3>
+            <p>The long-term capability phase. The ZSMC cell is initially modeled and validated as a primary (non-rechargeable) system to constrain the engineering problem. Only after the chemistry demonstrates exceptional stability and reproducible morphology control will development shift toward assessing its viability as a secondary (rechargeable) system.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split-layout">
+        <div class="section-kicker reveal">
+          <p class="eyebrow">Patent activity</p>
+          <h2>Indian Patent Office record and research specification.</h2>
+        </div>
+        <div class="prose reveal">
+          <p>The patent record lists Srijal Dutta as inventor for "Hybrid Zn-SnO<sub>2</sub>-MnO<sub>2</sub>-CuO
+            Electrochemical Storage System with Enhanced Stability, Safety and Cathode Longevity," with source-work ID
+            IN202631052070 and filing activity dated April 23, 2026.</p>
+          <p class="patent-disclaimer">Patent disclaimer: the actual patent is owned under natural legal guardian.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-paper">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Validation plan</p>
+          <h2>What evidence should come next.</h2>
+        </div>
+        <div class="validation-grid">
+          <article class="validation reveal">
+            <h3>Reproducibility</h3>
+            <p>Multiple cells built from the same protocol with tracked mass loading, pH, drying conditions, and
+              assembly method.</p>
+          </article>
+          <article class="validation reveal">
+            <h3>Electrochemistry</h3>
+            <p>OCV, discharge curves at multiple C-rates, impedance spectroscopy, and cutoff behavior against the
+              modeled dual-plateau profile.</p>
+          </article>
+          <article class="validation reveal">
+            <h3>Morphology</h3>
+            <p>SEM inspection before and after discharge to study zinc surface behavior, cathode structure, and failure
+              signatures.</p>
+          </article>
+          <article class="validation reveal">
+            <h3>Safety envelope</h3>
+            <p>Controlled tests for thermal behavior, leakage, gel dehydration, and operational boundaries under
+              practical abuse assumptions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="container">
+
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/img/logo.png" alt="The ZSMC Co. logo" width="522" height="221">
+        <p>
+          Independent zinc-based energy-storage research focused on safer,
+          scalable, and sustainable electrochemical systems.
+        </p>
+      </div>
+
+      <div class="footer-meta">
+        <div>
+          <span class="footer-label">Its time to</span>
+          <strong>DO IT</strong>
+        </div>
+
+        <div>
+          <span class="footer-label">Contact</span>
+          <strong>info@thezsmc.co</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 The ZSMC Co.</p>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+
+  </div>
+</footer>
+  <script src="assets/vendor/three.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

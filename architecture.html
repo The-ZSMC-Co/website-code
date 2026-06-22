@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Architecture | The ZSMC Co.</title>
+  <meta name="description"
+    content="Cell architecture of the hybrid Zn-SnO2 / MnO2-CuO electrochemical storage system.">
+  <meta name="author" content="Srijal Dutta">
+  <link rel="canonical" href="https://thezsmc.co/architecture.html">
+  <link rel="icon" href="assets/img/icon.png" type="image/png">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body data-page="research">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="The ZSMC Co. home"><img src="assets/img/logo.png"
+        alt="The ZSMC Co. logo" width="522" height="221"></a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"
+      data-nav-toggle><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation" data-nav>
+      <a href="index.html" data-nav-link>Home</a>
+      <div class="nav-dropdown active">
+        <a href="research.html" class="nav-dropdown-toggle" data-nav-link aria-current="page">Research</a>
+        <div class="nav-dropdown-menu">
+          <a href="architecture.html" data-nav-link aria-current="page">Architecture</a>
+          <a href="failure-analysis.html" data-nav-link>Failure Analysis</a>
+          <a href="performance.html" data-nav-link>Performance</a>
+          <a href="validation.html" data-nav-link>Validation</a>
+          <a href="roadmap.html" data-nav-link>Roadmap</a>
+        </div>
+      </div>
+      <a href="about.html" data-nav-link>About</a>
+      <a href="contact.html" data-nav-link>Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero section-dark">
+      <div class="container page-hero-grid" style="grid-template-columns: 1fr;">
+        <div class="reveal">
+          <p class="eyebrow">Research / Architecture</p>
+          <h1>Three material systems, one stability problem.</h1>
+          <p>The architecture consists of a scaffolded anode, a dual-active cathode, and a buffered gel electrolyte tuned for the electrode pair.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="detail-grid">
+          <article class="detail-card reveal">
+            <span class="card-index">Anode</span>
+            <h2>Zn-SnO<sub>2</sub></h2>
+            <p>Zinc is the primary electroactive material. SnO<sub>2</sub> is included as a current-distribution
+              modifier and nucleation scaffold intended to reduce localized zinc growth.</p>
+            <div class="detail-notes">
+              <p class="detail-note">Primary role: capacity contribution from zinc.</p>
+              <p class="detail-note">Stability role: surface-energy and current-density homogenization.</p>
+              <p class="detail-note">Design concern: passivation and hydrogen evolution under aqueous conditions.</p>
+            </div>
+          </article>
+          <article class="detail-card reveal">
+            <span class="card-index">Cathode</span>
+            <h2>MnO<sub>2</sub>-CuO</h2>
+            <p>MnO<sub>2</sub> provides the primary plateau. CuO is modeled as a secondary redox-active phase that can
+              reduce resistance and contribute a secondary plateau near lower cell voltage.</p>
+            <div class="detail-notes">
+              <p class="detail-note">Primary role: MnO<sub>2</sub> capacity delivery.</p>
+              <p class="detail-note">Secondary role: CuO plateau and cathode profile smoothing.</p>
+              <p class="detail-note">Design concern: CuO accessibility decreases at higher C-rates.</p>
+            </div>
+          </article>
+          <article class="detail-card reveal">
+            <span class="card-index">Electrolyte</span>
+            <h2>Quasi-solid gel</h2>
+            <p>The electrolyte is treated as part of the architecture, not a commodity fluid. The formulation targets
+              ion mobility, buffering, mechanical stability, and low-temperature support.</p>
+            <div class="detail-notes">
+              <p class="detail-note">Target pH range: mildly acidic and buffered.</p>
+              <p class="detail-note">Stability role: gel matrix and glycerol support.</p>
+              <p class="detail-note">Design concern: dehydration, cracking, and resistance growth.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-paper">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Interactive schematic</p>
+          <h2>Inspect the stack from different layers.</h2>
+          <p>Use the controls to focus on the anode, electrolyte, cathode, or the full system view. The visual favors
+            clarity over spectacle.</p>
+        </div>
+        <div class="schematic-explorer reveal" data-schematic-explorer>
+          <div class="schematic-controls" role="tablist" aria-label="Cell stack layers">
+            <button type="button" class="schematic-button" data-schematic-control="system"
+              aria-pressed="true">System</button>
+            <button type="button" class="schematic-button" data-schematic-control="anode"
+              aria-pressed="false">Anode</button>
+            <button type="button" class="schematic-button" data-schematic-control="electrolyte"
+              aria-pressed="false">Electrolyte</button>
+            <button type="button" class="schematic-button" data-schematic-control="cathode"
+              aria-pressed="false">Cathode</button>
+          </div>
+          <div class="schematic-stage" data-schematic-visual data-layer="system">
+            <div class="schematic-grid"></div>
+            <div class="schematic-stack">
+              <div class="schematic-layer schematic-layer-anode"><span>Zn-SnO2 anode</span></div>
+              <div class="schematic-layer schematic-layer-electrolyte"><span>Buffered gel electrolyte</span></div>
+              <div class="schematic-layer schematic-layer-cathode"><span>MnO2-CuO cathode</span></div>
+            </div>
+            <div class="schematic-flow schematic-flow-a"></div>
+            <div class="schematic-flow schematic-flow-b"></div>
+            <div class="schematic-flow schematic-flow-c"></div>
+            <div class="schematic-readout" data-schematic-readout>System view: all layers active and balanced.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<footer class="site-footer">
+  <div class="container">
+
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/img/logo.png" alt="The ZSMC Co. logo" width="522" height="221">
+        <p>
+          Independent zinc-based energy-storage research focused on safer,
+          scalable, and sustainable electrochemical systems.
+        </p>
+      </div>
+
+      <div class="footer-meta">
+        <div>
+          <span class="footer-label">Its time to</span>
+          <strong>DO IT</strong>
+        </div>
+
+        <div>
+          <span class="footer-label">Contact</span>
+          <strong>info@thezsmc.co</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 The ZSMC Co.</p>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+
+  </div>
+</footer>
+  <script src="assets/vendor/three.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
