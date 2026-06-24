@@ -342,16 +342,16 @@
   }
 
   function clearDesktopDropdowns() {
-  if (window.innerWidth > 760) {
-    document.querySelectorAll(".nav-dropdown.active")
-      .forEach(function (dropdown) {
-        dropdown.classList.remove("active");
-      });
+    if (window.innerWidth > 760) {
+      document.querySelectorAll(".nav-dropdown.active")
+        .forEach(function (dropdown) {
+          dropdown.classList.remove("active");
+        });
+    }
   }
-}
 
-window.addEventListener("resize", clearDesktopDropdowns);
-clearDesktopDropdowns();
+  window.addEventListener("resize", clearDesktopDropdowns);
+  clearDesktopDropdowns();
 
   window.addEventListener("scroll", setHeaderState, { passive: true });
   setHeaderState();

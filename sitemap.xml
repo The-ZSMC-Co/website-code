@@ -1,95 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
 <urlset
- xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
- xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:fo="http://www.w3.org/1999/XSL/Format"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-    <!-- Home -->
-    <url>
-        <loc>https://thezsmc.co/</loc>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-        <lastmod>2026-06-22</lastmod>
-
-        <image:image>
-            <image:loc>https://thezsmc.co/assets/img/logo.png</image:loc>
-        </image:image>
-
-        <image:image>
-            <image:loc>https://thezsmc.co/assets/img/logo.svg</image:loc>
-        </image:image>
-
-        <image:image>
-            <image:loc>https://thezsmc.co/assets/img/icon.png</image:loc>
-        </image:image>
-
-        <image:image>
-            <image:loc>https://thezsmc.co/assets/img/icon.svg</image:loc>
-        </image:image>
-    </url>
-
-    <!-- About -->
-    <url>
-        <loc>https://thezsmc.co/about.html</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <lastmod>2026-06-22</lastmod>
-    </url>
-
-    <!-- Research Hub -->
-    <url>
-        <loc>https://thezsmc.co/research.html</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-        <lastmod>2026-06-22</lastmod>
-    </url>
-
-    <!-- Architecture -->
-    <url>
-        <loc>https://thezsmc.co/architecture.html</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-        <lastmod>2026-06-22</lastmod>
-    </url>
-
-    <!-- Failure Analysis -->
-    <url>
-        <loc>https://thezsmc.co/failure-analysis.html</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-        <lastmod>2026-06-22</lastmod>
-    </url>
-
-    <!-- Performance Modeling -->
-    <url>
-        <loc>https://thezsmc.co/performance.html</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-        <lastmod>2026-06-22</lastmod>
-    </url>
-
-    <!-- Validation Plan -->
-    <url>
-        <loc>https://thezsmc.co/validation.html</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-        <lastmod>2026-06-22</lastmod>
-    </url>
-
-    <!-- R&D Roadmap -->
-    <url>
-        <loc>https://thezsmc.co/roadmap.html</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-        <lastmod>2026-06-22</lastmod>
-    </url>
-
-    <!-- Contact -->
-    <url>
-        <loc>https://thezsmc.co/contact.html</loc>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
-        <lastmod>2026-06-22</lastmod>
-    </url>
+<url>
+  <loc>https://thezsmc.co/</loc>
+  <lastmod>2026-06-24T06:43:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://thezsmc.co/research/</loc>
+  <lastmod>2026-06-24T06:43:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thezsmc.co/research/the-zsmc-battery-architecture/</loc>
+  <lastmod>2026-06-24T06:43:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thezsmc.co/research/the-zsmc-battery-architecture/architecture</loc>
+  <lastmod>2026-06-24T06:43:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thezsmc.co/research/the-zsmc-battery-architecture/failure-analysis</loc>
+  <lastmod>2026-06-24T06:43:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thezsmc.co/research/the-zsmc-battery-architecture/performance</loc>
+  <lastmod>2026-06-24T06:43:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thezsmc.co/research/the-zsmc-battery-architecture/validation</loc>
+  <lastmod>2026-06-24T06:43:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thezsmc.co/research/the-zsmc-battery-architecture/roadmap</loc>
+  <lastmod>2026-06-24T06:43:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thezsmc.co/about</loc>
+  <lastmod>2026-06-24T06:43:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thezsmc.co/contact</loc>
+  <lastmod>2026-06-24T06:43:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 </urlset>

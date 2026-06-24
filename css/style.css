@@ -331,7 +331,8 @@ sup {
 }
 
 .hero-copy {
-  max-width: 790px;
+  width: 100%;
+  max-width: 1100px;
 }
 
 .eyebrow {
