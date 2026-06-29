@@ -61,7 +61,7 @@
 </url>
 <url>
   <loc>https://thezsmc.co/articles/</loc>
-  <lastmod>2026-06-27T13:25:00Z</lastmod>  
+  <lastmod>2026-06-29T07:16:00Z</lastmod>  
   <priority>0.80</priority>
 </url>
 <url>
@@ -82,6 +82,17 @@
 <url>
   <loc>https://thezsmc.co/articles/what-limits-battery-current/</loc>
   <lastmod>2026-06-27T13:25:00Z</lastmod>  
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thezsmc.co/articles/what-is-battery-capacity/</loc>
+  <lastmod>2026-06-28T13:11:00+05:30</lastmod>  
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://thezsmc.co/articles/capacity-vs-energy/</loc>
+  <lastmod>2026-06-29T07:16:00Z</lastmod>  
   <priority>0.80</priority>
 </url>
 </urlset>
