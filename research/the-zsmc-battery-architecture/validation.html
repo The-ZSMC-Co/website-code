@@ -25,7 +25,7 @@
 <body data-page="research">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header" data-header>
-    <a class="brand" href="https://thezsmc.co/index" aria-label="The ZSMC Co. home">
+    <a class="brand" href="https://thezsmc.co" aria-label="The ZSMC Co. home">
       <img src="https://thezsmc.co/img/logo.png" alt="The ZSMC Co. logo" width="522" height="221">
     </a>
     <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-nav-toggle>
@@ -33,15 +33,16 @@
       <span></span>
     </button>
     <nav class="site-nav" aria-label="Primary navigation" data-nav>
-      <a href="https://thezsmc.co/index" data-nav-link>Home</a>
+      <a href="https://thezsmc.co" data-nav-link>Home</a>
       <div class="nav-dropdown">
-        <a href="https://thezsmc.co/research/index" class="nav-dropdown-toggle" data-nav-link>Research</a>
+        <a class="nav-dropdown-toggle" data-nav-link>Research</a>
         <div class="nav-dropdown-menu">
-
+          <a href="https://thezsmc.co/research/" data-nav-link>View All Research</a>
+          <hr color="#444" />
           <div class="nav-dropdown">
-            <a href="https://thezsmc.co/research/the-zsmc-battery-architecture/index" class="nav-dropdown-toggle" data-nav-link>The
-              ZSMC Battery Architecture</a>
+            <a class="nav-dropdown-toggle" data-nav-link>The ZSMC Battery Architecture</a>
             <div class="nav-dropdown-menu">
+              <a href="https://thezsmc.co/research/the-zsmc-battery-architecture" data-nav-link>Overview</a>
               <a href="https://thezsmc.co/research/the-zsmc-battery-architecture/architecture" data-nav-link>The Architecture</a>
               <a href="https://thezsmc.co/research/the-zsmc-battery-architecture/failure-analysis" data-nav-link>Failure Analysis</a>
               <a href="https://thezsmc.co/research/the-zsmc-battery-architecture/performance" data-nav-link>Performance</a>
@@ -63,7 +64,7 @@
     <section class="page-hero section-dark">
       <div class="container page-hero-grid" style="grid-template-columns: 1fr;">
         <div class="reveal">
-          <p class="eyebrow">Research / Validation Plan</p>
+          <p class="eyebrow">THE ZSMC BATTERY ARCHITECTURE /  Validation Plan</p>
           <h1>Measured under load, then examined directly.</h1>
           <p>The near-term work is intentionally narrow: apply a known load, record voltage response, inspect the resulting cells with SEM, and use EIS only where it helps interpret the final results.</p>
         </div>
@@ -108,44 +109,33 @@
 
   </main>
 
-<footer class="site-footer">
-  <div class="container">
+  <footer class="site-footer">
+    <div class="container">
 
-    <div class="footer-top">
-      <div class="footer-brand">
-        <img src="../../img/logo.png" alt="The ZSMC Co. logo" width="522" height="221">
-        <p>
-          Independent zinc-based energy-storage research focused on safer,
-          scalable, and sustainable electrochemical systems.
-        </p>
-      </div>
-
-      <div class="footer-meta">
-        <div>
-          <span class="footer-label">Its time to</span>
-          <strong>DO IT</strong>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="https://thezsmc.co/img/logo.png" alt="The ZSMC Co. logo" width="522" height="221">
+          <p>
+            The ZSMC Co. is an independent research initiative focused on scientific investigation, technical
+            development,
+            and experimental validation across emerging technologies and engineering disciplines.
+          </p>
         </div>
 
-        <div>
-          <span class="footer-label">Contact</span>
-          <strong>info@thezsmc.co</strong>
+        <div class="footer-meta">
+          <div>
+            <span class="footer-label">Contact</span>
+            <strong>info@thezsmc.co</strong>
+          </div>
         </div>
       </div>
+
+      <div class="footer-bottom">
+        <p>2026 © Srijal Dutta</p>
+      </div>
+
     </div>
-
-    <div class="footer-bottom">
-      <p>© 2026 The ZSMC Co.</p>
-
-      <nav>
-        <a href="/index.html">Home</a>
-        <a href="/research.html">Research</a>
-        <a href="/about.html">About</a>
-        <a href="/contact.html">Contact</a>
-      </nav>
-    </div>
-
-  </div>
-</footer>
+  </footer>
   <script src="../../vendor/three.min.js"></script>
   <script src="../../js/main.js"></script>
 </body>

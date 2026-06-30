@@ -30,35 +30,56 @@
     });
   }
 
-  function initNavigation() {
-    if (!navToggle || !nav) return;
-    navToggle.addEventListener("click", function () {
-      var open = body.classList.toggle("nav-open");
-      navToggle.setAttribute("aria-expanded", String(open));
-      navToggle.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
-    });
+function initNavigation() {
+  if (!navToggle || !nav) return;
 
-    nav.addEventListener("click", function (event) {
-      // Handle dropdown toggles
-      var toggle = event.target.closest(".nav-dropdown-toggle");
-      if (toggle) {
-        // Prevent default only if it's a click to toggle, but for standard desktop we might want it to go to hub.
-        // If mobileLike is true, toggle the dropdown.
-        if (mobileLike) {
-          event.preventDefault();
-          var dropdown = toggle.closest(".nav-dropdown");
-          dropdown.classList.toggle("active");
-          return;
-        }
+  navToggle.addEventListener("click", function () {
+    var open = body.classList.toggle("nav-open");
+    navToggle.setAttribute("aria-expanded", String(open));
+    navToggle.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
+  });
+
+  nav.addEventListener("click", function (event) {
+    var toggle = event.target.closest(".nav-dropdown-toggle");
+
+    // Handle dropdowns on mobile
+    if (mobileLike && toggle) {
+      var dropdown = toggle.parentElement;
+
+      // Stop parent dropdowns also receiving the click
+      event.stopPropagation();
+
+      // First tap = open
+      if (!dropdown.classList.contains("active")) {
+        event.preventDefault();
+        dropdown.classList.add("active");
+        return;
       }
 
-      if (event.target.tagName === "A" && !event.target.classList.contains("nav-dropdown-toggle")) {
-        body.classList.remove("nav-open");
-        navToggle.setAttribute("aria-expanded", "false");
-        navToggle.setAttribute("aria-label", "Open navigation");
-      }
-    });
-  }
+      // Second tap = navigate (don't preventDefault)
+      return;
+    }
+
+    // Normal links
+    var link = event.target.closest("a");
+    if (link && !link.classList.contains("nav-dropdown-toggle")) {
+      body.classList.remove("nav-open");
+      navToggle.setAttribute("aria-expanded", "false");
+      navToggle.setAttribute("aria-label", "Open navigation");
+    }
+  });
+
+  // Close dropdowns when clicking outside
+  document.addEventListener("click", function (event) {
+    if (!mobileLike) return;
+
+    if (!nav.contains(event.target)) {
+      nav.querySelectorAll(".nav-dropdown.active").forEach(function (dropdown) {
+        dropdown.classList.remove("active");
+      });
+    }
+  });
+}
 
   function initReveal() {
     var items = document.querySelectorAll(".reveal");
