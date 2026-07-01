@@ -61,7 +61,7 @@
 </url>
 <url>
   <loc>https://thezsmc.co/articles/</loc>
-  <lastmod>2026-06-30T07:07:38Z</lastmod>  
+  <lastmod>2026-07-01T10:31:00Z</lastmod>  
   <priority>0.80</priority>
 </url>
 <url>
@@ -97,6 +97,11 @@
 <url>
   <loc>https://thezsmc.co/articles/power-and-energy/</loc>
   <lastmod>2026-06-30T07:07:38Z</lastmod>  
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thezsmc.co/articles/why-batteries-get-hot/</loc>
+  <lastmod>2026-07-01T10:31:00Z</lastmod>  
   <priority>0.80</priority>
 </url>
 </urlset>
